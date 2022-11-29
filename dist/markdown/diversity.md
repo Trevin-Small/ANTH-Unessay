@@ -1,1 +1,0 @@
-## The Beauty Of Diversity

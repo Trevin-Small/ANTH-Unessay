@@ -1,1 +1,0 @@
-## Highliting Similarities and Differences

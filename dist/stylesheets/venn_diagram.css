@@ -1,0 +1,77 @@
+:root {
+	--venn-width-mult: 1;
+}
+
+body {
+  background-color: #e8dea2;
+}
+
+main {
+	width: calc(100% * var(--venn-width-mult));
+	margin: 0 auto;
+}
+
+dt, dd {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+}
+
+/* Grid  */
+.Venn {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, calc(28.8vw * var(--venn-width-mult)));
+}
+
+.Venn .circle.one {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.Venn .circle.two {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.Venn .shape.onetwo {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+/* Inner content */
+
+.Venn .circle,
+.Venn .shape {
+  font-size: calc(2.5vw * var(--venn-width-mult));
+  line-height: 1.25;  
+  display: flex;
+  color: #fff;
+}
+
+.Venn .circle.one {
+  background-color: #30d37b;
+  mix-blend-mode: color-burn;
+}
+
+.Venn .circle.two {
+  background-color: #e57100;
+}
+
+.Venn .circle {
+  border-radius: 50%;
+}
+
+.Venn ul {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  list-style: none;
+  padding-left: 0;
+}

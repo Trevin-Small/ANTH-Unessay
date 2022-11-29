@@ -31,13 +31,14 @@ export const Functions = (() => {
   }
 
   function rescaleFont() {
+    return;
     let messageBoxes = document.getElementsByClassName("message-box");
     for (let i = 0; i < messageBoxes.length; i++) {
         let smallerDimension = window.innerWidth < window.innerHeight ? window.innerWidth : window.innerHeight;
         if (smallerDimension < 1100) {
-            messageBoxes[i].style.fontSize = smallerDimension * 0.035;
+            messageBoxes[i].style.fontSize = window.innerWidth * 0.0275 + "px";
         } else {
-            messageBoxes[i].style.fontSize = smallerDimension * 0.0275;
+            messageBoxes[i].style.fontSize = window.innerWidth * 0.02 + "px";
         }
 
     }

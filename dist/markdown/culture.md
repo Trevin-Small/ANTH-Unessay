@@ -1,1 +1,1 @@
-## 💻  How Does Culture Define Us?
+## Culture's Role in Defining Our Identity
