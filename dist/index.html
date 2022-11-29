@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ANTH Unessay</title>
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org/",
+            "@type": "ResearchProject",
+            "name": "Anthropoloy 100 Unessay",
+            "description": "Trevin Small's Project, ANTH 100, Purdue University, Fall 2022",
+            "keywords": "trevin small purdue website anthropology"
+        }
+    </script>
+
+
+    <link rel="icon" type="image/x-icon" href="./images/robot.ico" />
+
+    <link rel="stylesheet" href="./stylesheets/output.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
+</head>
+
+<body class="backdrop flex flex-col justify-start" id="background">
+    <div class="scroll" id="top-layer">
+        <div class="content-background bg-black bg-opacity-30">
+
+            <div class="w-full h-auto pt-5 px-0 rounded-2xl flex flex-col items-center bg-gray-600" id="title-container">
+                <img src="./images/header-text-white.png" id="trevin small logo"
+                    style="width:90%;">
+
+                <div class="w-full mt-3 flex flex-row justify-center items-center">
+
+                    <div title="Theme" class="icon-box" id="color-theme-icon"
+                        style="cursor:pointer;height:2.5rem;">
+                        <img src="./images/theme-moon.svg" id="moon-icon" />
+                        <img src="./images/theme-sun.svg" id="sun-icon" />
+                    </div>
+
+                    <div class="switch-box" style="height:2rem;" id="switch-div">
+                        <img src="./images/switch-on.svg" name="switch" class="h-full" />
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="w-full h-full m-0 p-0 pointer-events-none" id="main-content">
+
+                <div class="mt-2 w-full h-auto m-0 p-0 flex flex-row justify-start text-md text-center -z-50 relative pointer-events-auto" id="page-tabs">
+                    <div class="w-1/5 mr-1 px-2 pt-1 pb-4 rounded-t-lg relative top-4" name="tab" id="0">Intro</div>
+                    <div class="w-1/5 mr-1 px-2 pt-1 pb-4 rounded-t-lg relative top-4" name="tab" id="1">Culture</div>
+                    <div class="w-1/5 mr-1 px-2 pt-1 pb-4 rounded-t-lg relative top-4" name="tab" id="2">Diversity</div>
+                    <div class="w-1/5 mr-1 px-2 pt-1 pb-4 rounded-t-lg relative top-4" name="tab" id="3">Art</div>
+                    <div class="w-1/5 px-2 pt-1 pb-4 rounded-t-lg relative top-4" name="tab" id="4">Comparisons</div>
+
+                </div>
+
+                <div class="w-full h-full m-0 p-3 bg-gray-600 rounded-2xl flex flex-col items-center">
+                    
+                    <div class="w-full h-full m-0 p-0" id="page-0">
+
+                        <div class="content-container">
+
+                            <zero-md src="./markdown/intro.md">
+                                <template>
+                                    <link rel="stylesheet" href="./stylesheets/markdown.css">
+                                    <link rel="stylesheet" href="./stylesheets/prism.css">
+                                </template>
+                            </zero-md>
+                        </div>
+                    </div>
+
+                    <div class="w-full h-full m-0 p-0" style="display:none" id="page-1">
+                        <div class="content-container">
+
+                            <zero-md src="./markdown/culture.md">
+                                <template>
+                                    <link rel="stylesheet" href="./stylesheets/markdown.css">
+                                    <link rel="stylesheet" href="./stylesheets/prism.css">
+                                </template>
+                            </zero-md>
+                        </div>
+                    </div>
+
+                    <div class="w-full h-full m-0 p-0" style="display:none" id="page-2">
+                        <div class="content-container">
+
+                            <zero-md src="./markdown/diversity.md">
+                                <template>
+                                    <link rel="stylesheet" href="./stylesheets/markdown.css">
+                                    <link rel="stylesheet" href="./stylesheets/prism.css">
+                                </template>
+                            </zero-md>
+                        </div>
+                    </div>
+
+                    <div class="w-full h-full m-0 p-0" style="display:none" id="page-3">
+                        <div class="content-container">
+
+                            <zero-md src="./markdown/art.md">
+                                <template>
+                                    <link rel="stylesheet" href="./stylesheets/markdown.css">
+                                    <link rel="stylesheet" href="./stylesheets/prism.css">
+                                </template>
+                            </zero-md>
+                        </div>
+                    </div>
+
+                    <div class="w-full h-full m-0 p-0" style="display:none" id="page-4">
+                        <div class="content-container">
+
+                            <zero-md src="./markdown/comparisons.md">
+                                <template>
+                                    <link rel="stylesheet" href="./stylesheets/markdown.css">
+                                    <link rel="stylesheet" href="./stylesheets/prism.css">
+                                </template>
+                            </zero-md>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+    </div>
+
+    <div class="email-message" id="email-alert-box" style="display:block;visibility:hidden;">
+
+        <zero-md src="./markdown/message.md">
+            <template>
+                <link rel="stylesheet" href="./stylesheets/markdown.css">
+                <link rel="stylesheet" href="./stylesheets/prism.css">
+            </template>
+        </zero-md>
+
+    </div>
+
+    <div class="wave-background" id="fixed-background">
+        <script src="./main.js"></script>
+    </div>
+
+</body>
+
+</html>
