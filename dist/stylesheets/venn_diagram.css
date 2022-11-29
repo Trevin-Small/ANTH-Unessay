@@ -1,9 +1,5 @@
 :root {
-	--venn-width-mult: 1;
-}
-
-body {
-  background-color: #e8dea2;
+	--venn-width-mult: inherit;
 }
 
 main {
@@ -20,48 +16,50 @@ dt, dd {
 /* Grid  */
 .Venn {
   display: grid;
+  width: 100%;
+  aspect-ratio: 1.65;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(2, calc(28.8vw * var(--venn-width-mult)));
+  grid-template-rows: repeat(1, calc(28.8vw * var(--venn-width-mult)));
+  margin: 20px 0px 15px 0px;
 }
 
 .Venn .circle.one {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: 1;
 }
 
 .Venn .circle.two {
   grid-column-start: 3;
   grid-column-end: 6;
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: 1;
 }
 
 .Venn .shape.onetwo {
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: 1;
 }
 
 /* Inner content */
 
 .Venn .circle,
 .Venn .shape {
-  font-size: calc(2.5vw * var(--venn-width-mult));
-  line-height: 1.25;  
+  font-size: calc(1.25vw * var(--venn-width-mult));
+  line-height: 1.1;  
   display: flex;
   color: #fff;
 }
 
 .Venn .circle.one {
-  background-color: #30d37b;
-  mix-blend-mode: color-burn;
+  border: 4px solid black;
 }
 
 .Venn .circle.two {
-  background-color: #e57100;
+  border: 4px solid black;
 }
 
 .Venn .circle {
