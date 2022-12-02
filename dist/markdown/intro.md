@@ -23,3 +23,4 @@ Please navigate through the website via the tabs above to further explore these 
 Cited below are resources which aided in the development of this site. Thank you to the contributors of these projects:
 - [**Georgi Nikolov's CodePen**](https://codepen.io/gbnikolov/pen/rLzxoX): The basis for the wavy animation on this site
 - [**zero-md**](https://github.com/zerodevx/zero-md): Enabling the embedding of markdown files in HTML
+- [**DreamStudio**](https://beta.dreamstudio.ai/dream): All images on this site are AI generated, highlighting the combination of art and technology that humans have developed

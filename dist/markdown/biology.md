@@ -23,14 +23,3 @@ Humans possess many biological traits which are rare in nature, or in some cases
 - To hone in on one example, Hannah Seo, citing anthropologist Tina Lasisi's work, said about hair, "just as melanated skin protects against UV rays, tightly curled hairs also protect humans from the sun. Tight curls create lofted, airy centilation structures for the head, allowing it to breathe while providing extra protection from solar radiation." Hair diversity came from adaptive needs, like all of our traits, and contribute to the diversity and beauty of our population.
 
 - This biological diversity contributes to our identities - and therefore our humanity. The traits we have reflect not only our familial history, but is also often tied to our cultural backgrounds. Being human means being unique, complex, and multi-faceted. We as individuals are all one-of-a-kind, and our biological diversity is just one of the many factors that influence our sense of self.
-
-- **A Note on Race**
-    - It may seem as though race was missing from the list when speaking about biological diversity. However, it has been proven over and over again that our concept of race is a social construct, and is not based on biology. Humans are genetically far too similar to one another to be considered members of different "groups" or "races". Instead, the idea of race originates from the segragatory practice of lumping people into broad groups usually based on stereotypical physical and cultural traits.
-
-## The Similarities and Differences of Human Biology
-
-
-## Sources
-Garlinghouse, T. (2019, May 29). Unraveling the mystery of human bipedality. Sapiens Anthropology Magazine. Retrieved December 1, 2022, from https://www.sapiens.org/archaeology/human-bipedality/ 
-
-Seo, H. (2022, March 9). Untangling race from hair. Sapiens Anthropology Magazine. Retrieved December 2, 2022, from https://www.sapiens.org/biology/hair-race-evolution/ 
