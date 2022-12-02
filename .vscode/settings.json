@@ -1,3 +1,14 @@
 {
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "grammarly.selectors": [
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "dist/markdown/biology-2.md"
+    },
+    {
+      "language": "markdown",
+      "scheme": "file"
+    }
+  ]
 }
